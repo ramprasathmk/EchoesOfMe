@@ -66,17 +66,19 @@ body {
 function NavBar() {
 
   return (
-    <StyledNavBar>
-    <nav className="nav">
-      <Link to="/" className="site-title">
-        <ImHome/>
-      </Link>
-      <ul>
-        <CustomLink to="/projects"> Projects </CustomLink>
-        <CustomLink to="/about"> About </CustomLink>
-      </ul>
-    </nav>
-    </StyledNavBar>
+    <>
+      <StyledNavBar>
+        <nav className="nav">
+          <Link to="/" className="site-title">
+            <ImHome />
+          </Link>
+          <ul>
+            <CustomLink to="/projects"> Projects </CustomLink>
+            <CustomLink to="/about"> About </CustomLink>
+          </ul>
+        </nav>
+      </StyledNavBar>
+    </>
   )
 }
 
