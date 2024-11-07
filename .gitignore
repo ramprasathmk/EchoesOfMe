@@ -30,4 +30,6 @@ dist-ssr
 *.sw?
 # VSCode
 .vscode
+.vscode/*
 .vs
+.vs/*
