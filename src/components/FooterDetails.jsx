@@ -14,9 +14,10 @@ export default function FooterDetails() {
   return (
     <React.Fragment>
       <StyledFooterDetails color={"white"}>
-        Copyright &copy; {CurrentYear}
+        &copy; {CurrentYear}
       </StyledFooterDetails>
-      <StyledFooterDetails> {DeveloperName} </StyledFooterDetails>
+      <StyledFooterDetails> {DeveloperName} </StyledFooterDetails> 
+      <StyledFooterDetails color={"white"}> All Rights Reserved  </StyledFooterDetails> <br /> 
     </React.Fragment>
   );
 }
