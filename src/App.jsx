@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Home from './components/pages/Home'
 import Projects from './components/pages/Projects'
 import About from './components/pages/About'
+import { HelloWorld } from './components'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/hello" element={<HelloWorld />} />
         </Routes>
       </div>
 
