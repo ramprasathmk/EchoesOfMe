@@ -73,8 +73,9 @@ function NavBar() {
             <ImHome />
           </Link>
           <ul>
-            <CustomLink to="/projects"> Projects </CustomLink>
+            <CustomLink to="/"> Home </CustomLink>
             <CustomLink to="/about"> About </CustomLink>
+            <CustomLink to="/projects"> Projects </CustomLink>
           </ul>
         </nav>
       </StyledNavBar>
