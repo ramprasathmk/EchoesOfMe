@@ -22,6 +22,24 @@ const StyledHome = styled.div`
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     -webkit-text-fill-color: #111;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 function Home() {

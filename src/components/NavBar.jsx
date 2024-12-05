@@ -76,6 +76,8 @@ function NavBar() {
             <CustomLink to="/"> Home </CustomLink>
             <CustomLink to="/about"> About </CustomLink>
             <CustomLink to="/projects"> Projects </CustomLink>
+            <CustomLink to="/resume"> Resume </CustomLink>
+            <CustomLink to="/chat"> Chat </CustomLink>
           </ul>
         </nav>
       </StyledNavBar>
