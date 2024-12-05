@@ -17,7 +17,7 @@ const StyledResume = styled.div`
 
   p {
     font-size: 1.2rem;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif';
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #555;
     line-height: 1.6;
   }
