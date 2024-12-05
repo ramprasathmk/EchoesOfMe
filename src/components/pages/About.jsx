@@ -26,24 +26,6 @@ const StyledAbout = styled.div`
     --imp-text-color: #c770f0 !important;
     -webkit-text-fill-color: var(--imp-text-color) !important;
   }
-
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-    p {
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-    p {
-      font-size: 0.9rem;
-    }
-  }
 `;
 
 function About() {

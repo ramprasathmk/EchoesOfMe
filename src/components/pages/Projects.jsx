@@ -33,24 +33,6 @@ const StyledProjects = styled.div`
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     column-gap: 1rem;
   }
-
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 2rem;
-    }
-    p, li {
-      font-size: 1rem;
-    }
-  }
-
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 1.5rem;
-    }
-    p, li {
-      font-size: 0.9rem;
-    }
-  }
 `;
 
 function Projects() {
